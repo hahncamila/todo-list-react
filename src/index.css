@@ -1,0 +1,129 @@
+:root {
+  font-family: Poppins, sans-serif;
+  line-height: 1.5rem;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.titel h1 {
+  font-size: 40px;
+  line-height: 1.1;
+  cursor: default;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+table {
+  width: 60%;
+  justify-content: center;
+  border-collapse: collapse;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+thead {
+  border-bottom: #ffffff 6px solid;
+  text-align: center;
+}
+
+th {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+
+tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+td {
+  padding: 20px 0;
+  text-align: left;
+}
+
+.input-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-task{
+  border: none;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: transparent;
+  font-size: 1rem;
+  padding-top: 20px;
+  width: 100%;
+  padding-left: 0;
+}
+
+.input-task::placeholder {
+  font-style: italic;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button-dialog-no{
+  display: flex;
+  justify-content: space-between;
+  background: #0C70F2;
+  border-radius: 10px;
+  padding: 10px 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    gap: 30px;
+    margin: 0;
+    background-color: #0C70F2; 
+    color: white; 
+    padding: 0px 20px;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0;
+    z-index: 1000;
+}
+
+
+.header p {
+  margin-bottom: 0px;
+}
